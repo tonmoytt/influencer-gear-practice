@@ -18,3 +18,60 @@ nav li{
 
     list-style: none;
 }
+
+                    /* header banner */
+
+   .prebook{
+    /* padding: 50px 0px; */
+ 
+   }
+   .common-button{
+    margin-top: 20px;
+padding: 7px 20px;
+border-radius: 10px;
+   }
+
+
+          /* banner section */
+
+          .camra{
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 0px;
+            background-image: url('influencer-gear/images/Circle\ design.svg');
+            background-repeat: no-repeat;
+            background-position: right;
+          }
+
+
+
+
+
+     /*  RESPONSIVE SMALL DEVICE */
+     @media screen and (max-width:576px) {
+        
+     
+
+     header{
+        padding: 20px 40px;
+     }
+     nav{
+        display: grid;
+     }
+     nav li a {
+         margin-right: 10px;
+     }
+     nav h2{
+        text-align: center;
+     }
+     .camra{
+        display: grid;
+         
+         
+        padding: 10px 0px;
+        /* background-image: url('influencer-gear/images/Circle\ design.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+      } */
+
+    }
