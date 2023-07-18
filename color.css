@@ -1,6 +1,9 @@
 header{
     padding: 30px 80px;
 }
+/* *{
+    background-color: aliceblue;
+} */
 nav{
     display: flex;
     justify-content: space-between;
@@ -26,6 +29,7 @@ nav li{
  
    }
    .common-button{
+    background-color: tomato;
     margin-top: 20px;
 padding: 7px 20px;
 border-radius: 10px;
@@ -45,9 +49,91 @@ border-radius: 10px;
 
 
 
+              /*  main section one */
+ .mainone{
+    padding: 30px 80px;
+ }
+ .alibabamain{
+    display: flex;
+    border: 0.1px solid darkgray;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .alibaba{
+ 
+    margin-right: 30px 30px 30px;
+    
+}
+
+    /*   MAIN IMG SECTION TWO  */
+
+    .Popular{
+        text-align: center;
+        padding: 30px;
+        
+    } 
+    .popularimgone{
+        border: 3px solid rgb(98, 131, 214);
+        margin: 100px 80px 20px 80px;
+        
+    }
+    .popularimg{
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        gap: 10px;
+        
+       
+       
+    }
+    .box{
+       width: 100%;
+        background-color: white;
+      /* padding: 20px; */
+      border-radius: 5px;
+      
+    }
+    .price{
+
+    font-size: 20px;
+    background-color: ;
+    }
+
+    .imgpadding{
+        padding: 20px;
+        width: 90%;
+    }
 
 
+       /*  section three */
+
+       .divthree{
+        margin: 140px 80px;
+        display: flex;
+         
+      
+       }
+       .joinnow{
+        margin-left: 100px;
+       }
+
+       /*    footer section */
+
+
+       .footer{
+        background-color: rgb(17, 21, 39);
+        color: white;
+         text-align: center;
+         
+         padding: 30px;
+       }
+       /* .black{
+        background-color: rgb(47, 147, 54);
+       } */
+  
      /*  RESPONSIVE SMALL DEVICE */
+
      @media screen and (max-width:576px) {
         
      
@@ -65,13 +151,53 @@ border-radius: 10px;
         text-align: center;
      }
      .camra{
-        display: grid;
+        display: flex;
+        flex-direction: column-reverse;
+        
          
-         
-        padding: 10px 0px;
-        /* background-image: url('influencer-gear/images/Circle\ design.svg');
-        background-repeat: no-repeat;
-        background-position: right;
-      } */
+        
 
     }
+     /* mainsection one */
+     .mainone{
+        padding: 10px;
+         
+        
+        
+}
+.alibaba{
+    margin-right: 30px;
+    flex-wrap: wrap;
+  
+}
+
+ /* img section */
+.popularimg{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.popularimgone{
+    margin: 30px;
+    
+}
+
+/*  three section */
+.divthree{
+    display: grid;
+    margin: 30px;
+    margin-top: 100px;
+    flex-direction: column-reverse;
+}
+.grid{
+    height: 100%;
+    width: 100%;
+}
+.joinnow{
+    margin-left: 10px;
+    margin-top: 40px;
+    text-align: center;
+   }
+   /* .colamrev{
+    flex-direction: column-reverse;
+   } */
+}
